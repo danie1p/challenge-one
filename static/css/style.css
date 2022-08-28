@@ -1,0 +1,143 @@
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+html {
+
+    font-size: 10px;   
+    font-family: 'Oswald', sans-serif;
+
+}
+
+body {
+
+    background: #E8E8E8;
+    padding: 30px 10%;
+
+}
+
+.principal {
+
+    padding: 0 12%;
+
+}
+
+header {
+
+    width: 100%;
+
+}
+
+.logo {
+
+   display: inline-block;
+   vertical-align: top;
+   width: 60px;
+
+}
+
+.entrada {
+
+    display: inline-block;
+    vertical-align: top;
+    width: 10% 75%;
+    clear: left;
+    margin: 50px 0;
+
+}
+.txt-area {
+
+    background: #E8E8E8;
+    border: none;
+    resize: none;
+
+}
+
+.txt-area::placeholder {
+
+    font-size: 2rem;
+    color: #0A3871;
+    font-weight: 900;
+    text-align: left;
+
+}
+.mostrar_enlinea {
+
+    display: inline-block;
+    padding: 0 0;
+    font-size: 10px;
+
+}
+.left {
+
+    float: left;
+    margin-right: 10px;
+
+}
+
+figure {
+
+    margin: 10px 0;
+
+}
+
+.btnEncriptar {
+
+    background: #0A3871;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    width: 45%;
+    border: 1px solid #0A3871;
+    padding: 10px 0;
+    margin-top: 5px;
+
+}
+
+.btn {
+
+    background: #D8DFE8;
+    border-radius: 10px;
+    color: #0A3871;
+    text-align: center;
+    width: 45%;
+    border: 1px solid #0A3871;
+    padding: 10px 0;
+
+}
+
+.resultado {
+
+    display: inline-block;
+    background: #FFF;
+    border-radius: 7px;
+    width: 300px;
+    height: 450px;
+    text-align: center;
+
+}
+
+.resultado p {
+
+    text-align: center;
+    width: 25%;
+    /* background: white; */
+
+}
+
+.imagen-resultados {
+
+    width: 100%;
+
+}
+
+h2 {
+
+    font-weight: bold;
+    font-size: 2.75rem;
+    margin: 10px;
+
+}

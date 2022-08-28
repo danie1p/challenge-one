@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enciptador y desifrador: Challenge One</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./static/css/reset.css">
+    <link rel="stylesheet" href="./static/css/style.css">
+
+</head>
+<body>
+
+
+        <header>
+            <h1>
+                <img src="./static/img/Logo.png" alt="Alura logo" class="logo">  
+            </h1>
+        </header>
+        <main class="principal">
+            <section class="entrada">
+                    
+                <textarea name="txt" id="txt" cols="60" rows="20" placeholder="Ingrese el texto aqui" class="txt-area"></textarea>
+                <figure>
+                    <img src="./static/img/gray_warning.png" alt="Ico para denotar una nota importante" class="mostrar_enlinea left">
+                        <figcaption class="mostrar_enlinea">Solo letras minusculas y sin acento</figcaption>
+                </figure>
+                <button class="btnEncriptar" id="btnEncriptar">Encriptar</button> .
+                <button class="btn" id="btnDesencriptar">Desencriptar</button>
+                
+            </section>
+            <section class="resultado">
+            
+                <p id="texto-resultado"></p>
+                <figure>
+                    <img src="./static/img/Mu¤eco.png" alt="Chico esperando ver los resultados" class="imagen-resultados">
+                    <figcaption id="mostrar-resultado">
+                        <h2>Ningun mensaje fue encontrado</h2>
+                        <p class="indicaciones">Ingrese el texto que desee encriptar o desencriptar.</p>
+                    </figcaption>                
+                    <button class="btn" id="btnCopiarTexto">Copiar</button>               
+                </figure>  
+                        
+            </section>
+        </main>
+    <script src="./static/js/main.js"></script>
+
+</body>
+</html>
